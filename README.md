@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Upward Bound
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./upward-bound-big-logo.png" alt="Upward Bound Logo"/>
 
-## Available Scripts
+## **Overview**
 
-In the project directory, you can run:
+### **Link**
 
-### `npm start`
+*Coming soon*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Description**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Upward Bound is a program that provides academic and cultural enrichment opportunities for high school students from low-income families and/or first-generation college students. The program is designed to help students prepare for college and to succeed in their postsecondary education.
 
-### `npm test`
+## **Development**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Note: This is a work in progress. The following instructions are not yet complete and are subject to change as project development progresses.*
 
-### `npm run build`
+These instructions will get a copy of the project up and running on a local machine for development and testing purposes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Installation and Setup**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You will need the following software installed on your machine prior to running the project. The links below will take you to the installation pages for each software.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/)
+* [VSCode](https://code.visualstudio.com/)
+* [React.js](https://reactjs.org/)
 
-### `npm run eject`
+### **Step 1: Prerequisites**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Node](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [VSCode](https://code.visualstudio.com/)
+    - Install the appropriate language support for each language used in the project.
+- [React.js](https://reactjs.org/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **Step 2: Clone the Repository**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Navigate to the desired project directory on your computer.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Clone the repository from [GitHub](https://github.com/build-umass/upward-bound.git) using the `git clone` command.
 
-## Learn More
+    ```bash
+    $ git clone https://github.com/build-umass/upward-bound.git
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Navigate to the cloned repository directory.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    $ cd upward-bound
+    ```
+    or
+    ```bash
+    $ cd name-of-cloned-repository
+    ```
+### **Step 3: Install Dependencies**
 
-### Code Splitting
+- Check that the terminal is in the correct directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    $ pwd
+    ```
 
-### Analyzing the Bundle Size
+- Install the dependencies using the `npm install` command.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```bash
+    $ npm install
+    ```
+### **Step 4: Run the Application**
 
-### Making a Progressive Web App
+- Run the application using the `npm start` command.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    ```bash
+    $ npm start
+    ```
+### **Step 5: View the Application**
+- The command from Step 4 will locally host the website on `http://localhost:3000`.
 
-### Advanced Configuration
+## **System Architecture**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **Overview**
 
-### Deployment
+Included in the repository is a file called `system-design.png`. This file contains a diagram of the current system design architecture for the project as shown below.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./system-design.png" alt="System Design Architecture" width="500"/>
