@@ -22,11 +22,6 @@ These instructions will get a copy of the project up and running on a local mach
 
 You will need the following software installed on your machine prior to running the project. The links below will take you to the installation pages for each software.
 
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/)
-* [VSCode](https://code.visualstudio.com/)
-* [React.js](https://reactjs.org/)
-
 ### **Step 1: Prerequisites**
 
 - [Node](https://nodejs.org/en/)
