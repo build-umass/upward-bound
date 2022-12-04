@@ -4,6 +4,10 @@ Through brainstorming ways to help make Bridget's life easier when it comes to m
 
 One potential use case for the Docusign API includes having an area on the website where students and enter an email and we will use that email to send them a Docusign File to sign. The Python script could be running in the background and make the correct API call to have the signable document emailed to the student.  
 
+# Proposed Architecture
+
+When we come up with use cases for DocuSign in the app, we can add a feature to allow the React client to make a request to our Python server, which is where all Docusign logic will be handled. 
+
 # DocuSign API Set up
 
 First, download the SDK from this GitHub repository as a zip file.
